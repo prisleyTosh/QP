@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Card</title>
+  <style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .table-wrapper {
+        width: 100vw;
+        height: 100vh;
+        overflow: auto;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        height: 100%;
+    }
+
+    th,
+    td {
+        padding: 12px;
+        border: 1px solid #ddd;
+    }
+    .image-header {
+    height: 20%; /* or 25vh for responsive */
+    background-image: url("quickpick.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    font-size: 24px;
+    text-align: center;
+
+    position: relative;
+    overflow: hidden;
+    }
+    .text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding: 10px;
+    color: white;
+
+    background: rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+td {
+    transition: all 0.2s ease;
+}
+
+td:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+  </style>
+</head>
+<body>
+  <div class="table-wrapper">
+    <table>
+        <tbody>
+          <tr>
+            <td class="image-header">
+              <div class="text-overlay">Sugar</div>
+            </td>
+
+            <td class="image-header">
+              <div class="text-overlay">Maize Flour</div>
+            </td>
+
+            <td class="image-header">
+              <div class="text-overlay">Rice</div>
+            </td>
+          </tr>
+            
+            <td class="image-header">
+              <div class="text-overlay">Sugar</div>
+            </td>
+
+            <td class="image-header">
+              <div class="text-overlay">Bar Soap</div>
+            </td>
+
+            <td class="image-header">
+              <div class="text-overlay">Soda</div>
+            </td>
+          </tr>
+            
+            <td class="image-header">
+              <div class="text-overlay">Baking Flour</div>
+            </td>
+
+            <td class="image-header">
+              <div class="text-overlay">Milk</div>
+            </td>
+
+            <td class="image-header">
+              <div class="text-overlay">Pasta</div>
+            </td>
+          </tr>
+            <td class="image-header">
+              <div class="text-overlay">Cooking Oil</div>
+            </td>
+
+            <td class="image-header">
+              <div class="text-overlay">Bread</div>
+            </td>
+
+            <td class="image-header">
+              <div class="text-overlay">Salt</div>
+            </td>
+          </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
