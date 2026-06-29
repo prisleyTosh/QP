@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>ShopLocal · QP</title>
+  <meta name="description" content="Mobile-first responsive app shell with Feeds, Create List, My Lists and About pages." />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- App Header -->
+
+
+  <!-- Main content area. Each section is a page/region that can be populated later. -->
+  <main id="app" class="app-main" role="main">
+    <!-- Feeds -->
+    <section id="feeds" class="page active" role="region" aria-labelledby="feeds-title" tabindex="-1">
+      <div class="page-inner">
+        <h2 id="feeds-title" class="page-title">Feeds</h2>
+        <div class="placeholder-grid" aria-hidden="false">
+          <!-- card placeholders -->
+          <article class="card placeholder">
+            <div class="card-media"></div>
+            <div class="card-body">
+              <h3 class="card-title">Feed Item</h3>
+              <p class="card-text">Placeholder content for feed items. Customize later.</p>
+            </div>
+          </article>
+          <article class="card placeholder">
+            <div class="card-media"></div>
+            <div class="card-body">
+              <h3 class="card-title">Feed Item</h3>
+              <p class="card-text">Placeholder content for feed items. Customize later.</p>
+            </div>
+          </article>
+          <article class="card placeholder">
+            <div class="card-media"></div>
+            <div class="card-body">
+              <h3 class="card-title">Feed Item</h3>
+              <p class="card-text">Placeholder content for feed items. Customize later.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Create List -->
+     <section id="create" class="page">
+    
+    <div class="table-wrapper">
+
+<table id="products-table">
+    <tbody>
+
+        <tr>
+            <td class="image-header" data-product="Sugar" data-price="1.20" data-shop="Corner Store">
+                <div class="text-overlay">
+                    <span class="name">Sugar</span>
+                    <span class="price">$1.20</span>
+                </div>
+            </td>
+
+            <td class="image-header" data-product="Maize Flour" data-price="2.50" data-shop="Market">
+                <div class="text-overlay">
+                    <span class="name">Maize Flour</span>
+                    <span class="price">$2.50</span>
+                </div>
+            </td>
+
+            <td class="image-header" data-product="Rice" data-price="3.00" data-shop="Market">
+                <div class="text-overlay">
+                    <span class="name">Rice</span>
+                    <span class="price">$3.00</span>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="image-header" data-product="Sugar" data-price="1.20" data-shop="Corner Store">
+                <div class="text-overlay">
+                    <span class="name">Sugar</span>
+                    <span class="price">$1.20</span>
+                </div>
+            </td>
+
+            <td class="image-header" data-product="Bar Soap" data-price="0.80" data-shop="Corner Store">
+                <div class="text-overlay">
+                    <span class="name">Bar Soap</span>
+                    <span class="price">$0.80</span>
+                </div>
+            </td>
+
+            <td class="image-header" data-product="Soda" data-price="0.60" data-shop="Shop A">
+                <div class="text-overlay">
+                    <span class="name">Soda</span>
+                    <span class="price">$0.60</span>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="image-header" data-product="Baking Flour" data-price="2.10" data-shop="Bakery">
+                <div class="text-overlay">
+                    <span class="name">Baking Flour</span>
+                    <span class="price">$2.10</span>
+                </div>
+            </td>
+
+            <td class="image-header" data-product="Milk" data-price="1.10" data-shop="Dairy">
+                <div class="text-overlay">
+                    <span class="name">Milk</span>
+                    <span class="price">$1.10</span>
+                </div>
+            </td>
+
+            <td class="image-header" data-product="Pasta" data-price="1.30" data-shop="Market">
+                <div class="text-overlay">
+                    <span class="name">Pasta</span>
+                    <span class="price">$1.30</span>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="image-header" data-product="Cooking Oil" data-price="4.20" data-shop="Shop B">
+                <div class="text-overlay">
+                    <span class="name">Cooking Oil</span>
+                    <span class="price">$4.20</span>
+                </div>
+            </td>
+
+            <td class="image-header" data-product="Bread" data-price="0.90" data-shop="Bakery">
+                <div class="text-overlay">
+                    <span class="name">Bread</span>
+                    <span class="price">$0.90</span>
+                </div>
+            </td>
+
+            <td class="image-header" data-product="Salt" data-price="0.50" data-shop="Market">
+                <div class="text-overlay">
+                    <span class="name">Salt</span>
+                    <span class="price">$0.50</span>
+                </div>
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+    </div>
+
+    </section>
+
+    <!-- My Lists -->
+    <section id="lists" class="page" role="region" aria-labelledby="lists" tabindex="-1">
+      <div class="page-inner">
+        <h2 id="lists-title" class="page-title">My Lists</h2>
+        <div class="placeholder-grid">
+    <article class="card placeholder">
+        <div class="card-body" id="my-list-content">
+    <h3 class="card-title">My List</h3>
+    <p class="card-text">Placeholder for Shopping lists.</p>
+</div>
+    </article>
+
+    <article class="card placeholder">
+        <div class="card-body">
+            <h3 class="card-title">My List</h3>
+            <p class="card-text">Placeholder for saved shoppinglists.</p>
+        </div>
+    </article>
+
+</div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="page" role="region" aria-labelledby="about-title" tabindex="-1">
+      <div class="page-inner">
+        <h2 id="about-title" class="page-title">About</h2>
+        <div class="placeholder-card">
+          <div class="placeholder-large">About content placeholder — add app details here.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Fixed Bottom Navigation -->
+  <nav id="bottom-nav" class="bottom-nav" role="navigation" aria-label="Primary">
+    <table class="bottom-nav__table" role="presentation">
+      <tr>
+        <td class="nav-cell">
+          <button class="nav-item nav-item--active" role="menuitem" aria-pressed="true" data-target="feeds" aria-controls="feeds">
+            <span class="nav-icon" aria-hidden="true">📰</span>
+            <span class="nav-label">Feeds</span>
+          </button>
+        </td>
+        <td class="nav-cell">
+          <button class="nav-item" role="menuitem" aria-pressed="false" data-target="create" aria-controls="create">
+            <span class="nav-icon" aria-hidden="true">✏️</span>
+            <span class="nav-label">Create List</span>
+          </button>
+        </td>
+        <td class="nav-cell">
+          <button class="nav-item" role="menuitem" aria-pressed="false" data-target="lists" aria-controls="lists">
+            <span class="nav-icon" aria-hidden="true">📋</span>
+            <span class="nav-label">My Lists</span>
+            <span id="nav-badge" class="nav-badge" aria-hidden="true" style="display:none;margin-left:6px;background:#e33;color:#fff;border-radius:10px;padding:2px 6px;font-size:12px;">0</span>
+          </button>
+        </td>
+        <td class="nav-cell">
+          <button class="nav-item" role="menuitem" aria-pressed="false" data-target="about" aria-controls="about">
+            <span class="nav-icon" aria-hidden="true">ℹ️</span>
+            <span class="nav-label">About</span>
+          </button>
+        </td>
+      </tr>
+    </table>
+  </nav>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
